@@ -1,0 +1,54 @@
+*{margin: 0px;}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #348a02;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.miolo{
+    height: 60%;
+    width: 30%;
+    background-color: #ecebeb;
+    border-radius: 100px 20px;
+    box-shadow: -5px 10px 20px -10px rgba(0,0,0,0.75);
+}
+
+form{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    height: 30%;
+    margin-bottom: 3vh;
+}
+
+label{
+    font-size: small;
+    margin-bottom: 1.5vh;
+}
+input{
+    height: 4vh;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    margin-bottom: 2vh;
+    width: 50%;
+}
+
+button{
+    margin-top: 2vh;
+    background-color: #348a02;
+    color: #fff;
+    height: 30px;
+    width: 50%;
+    font-size: .7em;
+    border: 0px;
+    border-radius: 7px;
+}
